@@ -1,0 +1,2 @@
+# AES-Text-Encryption
+A desktop java application that allows users to encrypt their messages using the AES algorithm.
