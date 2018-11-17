@@ -15,7 +15,7 @@ A desktop java application that allows users to encrypt or decrypt their message
 
 ## Uses:      
 Possible applications and usage for this program include:
-- Privatizing and protecting information, such as urls, contents of documents, and anything else textual.
+- Privatizing and protecting information, such as urls, contents of documents, and anything else that's in an ASCII textual format.
 - Sending secret messages to friends, family, and colleagues
 - Statistically measuring and analyzing the speed of encryption (the encryption/decryption speed is visible for this purpose).
 
