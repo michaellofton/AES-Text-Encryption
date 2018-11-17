@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="Aes Encryption:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/Aes_Encryption_jar</output-path>
-    <root id="archive" name="Aes Encryption.jar">
-      <element id="module-output" name="Aes Encryption" />
-    </root>
-  </artifact>
-</component>
