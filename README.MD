@@ -10,7 +10,7 @@ A desktop Java application that allows users to encrypt or decrypt their message
   - Download Java here: https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
 - AES 128-bit encryption for ASCII textual data (does not include the extended ASCII table). 
 - Automatically generate symmetric secret keys and encrypted messages to send to a party you wish to communicate with privately. 
-  Note: Make sure the key is sent through a secure and private channel. The encrypted message can be sent through insecure or
+  **Note:** Make sure the key is sent through a secure and private channel. The encrypted message can be sent through insecure or
   secure channels, but if the key is sent through an insecure channel (for example, a publicly accessible online area like an online forum or a YouTube video's comments section), then the message could be compromised. 
 - Graphical user interface for improved and simplified usability. 
 - Amount of time taken to encrypt and decrypt messages displayed.
