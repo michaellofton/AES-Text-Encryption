@@ -1,5 +1,5 @@
 ## AES-Text-Encryption
-A desktop java application that allows users to encrypt or decrypt their messages using the AES algorithm.
+A desktop Java application that allows users to encrypt or decrypt their messages using the AES algorithm.
 
 ## Features:
 **DISCLAIMER:** This hasn't been cryptographically and strenuously tested. This project was primarily for research and programming practice purposes. I am not an expert with cryptography and it's very possible that the way I utilized the library and created the flow of data is insecure. The majority of the code was created by a senior in high school with (at the time) 1 year programming experience in Java. **USE THIS FREEWARE PRODUCT AT YOUR OWN RISK. DO NOT USE FOR SERIOUS AND LIFE-THREATENING APPLICATIONS.**
