@@ -11,7 +11,7 @@ A desktop Java application that allows users to encrypt or decrypt their message
 - AES 128-bit encryption for ASCII textual data (does not include the extended ASCII table). 
 - Automatically generate symmetric secret keys and encrypted messages to send to a party you wish to communicate with privately. 
   Note: Make sure the key is sent through a secure and private channel. The encrypted message can be sent through insecure or
-  secure channels, but if the key is sent through an insecure channel (for example, a publically accessible online area like an online forum), then the message could be compromised. 
+  secure channels, but if the key is sent through an insecure channel (for example, a publicly accessible online area like an online forum or a YouTube video's comments section), then the message could be compromised. 
 - Graphical user interface for improved and simplified usability. 
 - Amount of time taken to encrypt and decrypt messages displayed.
 
@@ -24,7 +24,7 @@ Possible applications and usage for this program include:
 ## Design Features
 The majority of the functionality of the program was written in Java while parts of the graphical user interface and event handling were made using FXML and JavaFX.
 
-The act of encryption and decryption relies on the utilization of the Java Cryptography Architecture (JAC), which offers packages that provide implemenetation of cryptographic and authentication algorithms. From the cryptography architecture, the model of this project primarily uses the crypto and security packages, which are used for secret key generation, IV (initialization vector) spec creation, and AES cipher instantiation. Both the initial bytes for the secret key and the IV are generated using the SecureRandom class (a crytographically secure pseudo random number generator (PRNG)) from Java's security package.
+The act of encryption and decryption relies on the utilization of the Java Cryptography Architecture (JAC), which offers packages that provide implementation of cryptographic and authentication algorithms. From the cryptography architecture, the model of this project primarily uses the crypto and security packages, which are used for secret key generation, IV (initialization vector) creation, and AES cipher instantiation. Both the initial bytes for the secret key and the IV are generated using the SecureRandom class (a crytographically secure pseudo random number generator (PRNG)) from Java's security package.
 
-The program was created using the Model-view-controller design pattern, which creates a communication of data from the model (the part that performs encryption on text), the view (what the user sees, found in the fxml file) and the controller (the part that updates the view using information from the model). 
+The program was created using the Model-view-controller design pattern, which creates a communication of data from the model (the part that performs encryption on text), the view (what the user sees, found in the FXML file) and the controller (the part that updates the view using information from the model). 
 
