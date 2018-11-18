@@ -2,7 +2,7 @@
 A desktop Java application that allows users to encrypt or decrypt their messages using the AES algorithm.
 
 ## Features:
-**DISCLAIMER:** This hasn't been cryptographically and strenuously tested. This project was primarily for research of cryptography and programming practice purposes. I am not an expert with cryptography and it's very possible that the way I utilized the library and created the flow of data is insecure. The majority of the code was created by a senior in high school with (at the time) 1 year programming experience in Java. **USE THIS FREEWARE PRODUCT AT YOUR OWN RISK. DO NOT USE FOR SERIOUS AND LIFE-THREATENING APPLICATIONS.**
+**DISCLAIMER:** This hasn't been cryptographically and strenuously tested. This project was initially created for research of cryptography and programming practice purposes. I am not an expert with cryptography and it's very possible that the way I utilized the library and created the flow of data is insecure. The majority of the code was created by a senior in high school with (at the time) 1 year programming experience in Java. **USE THIS FREEWARE PRODUCT AT YOUR OWN RISK. DO NOT USE FOR SERIOUS AND LIFE-THREATENING APPLICATIONS.**
 
 - Portable (works on desktop and laptop machines that have Java (AKA the Java Runtime Environment (JRE)) installed).
   - Download Java here: https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
