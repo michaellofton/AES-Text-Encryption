@@ -22,7 +22,7 @@ Possible applications and usage for this program include:
 ## Design Features
 The majority of the functionality of the program was written in Java while parts of the graphical user interface and event handling were made using FXML and JavaFX.
 
-The act of encryption and decryption relies on the utilization of the Java cryptography architecture, which offers packages that provide implemenetation of cryptographic and authentication algorithms. From the cryptography architecture, the model of this project primarily uses the crypto and security packages, which are used for secret key generation, IV (initialization vector) spec creation, and AES cipher instantiation.
+The act of encryption and decryption relies on the utilization of the Java Cryptography Architecture (JAC), which offers packages that provide implemenetation of cryptographic and authentication algorithms. From the cryptography architecture, the model of this project primarily uses the crypto and security packages, which are used for secret key generation, IV (initialization vector) spec creation, and AES cipher instantiation.
 
 The program was created using the Model-view-controller design pattern, which creates a communication of data from the model (the part that performs encryption on text), the view (what the user sees, found in the fxml file) and the controller (the part that updates the view using information from the model). 
 
