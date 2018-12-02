@@ -1,5 +1,5 @@
-## AES-Text-Encryption
-A desktop Java application that allows users to encrypt or decrypt their messages using the AES algorithm. Version 0.1.0.
+## AES-Text-Encryption (Version 0.1.0)
+A desktop Java application that allows users to encrypt or decrypt their messages using the AES algorithm. 
 
 <img src="/img/How To Encrypt-Decrypt.png" style="text-align:center"/>
 
