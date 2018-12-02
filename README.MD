@@ -4,7 +4,7 @@ A desktop Java application that allows users to encrypt or decrypt their message
 <img src="/img/How To Encrypt-Decrypt.png" style="text-align:center"/>
 
 ## Features:
-**DISCLAIMER:** This program hasn't been __cryptographically__ tested (cryptanalized). This project was initially created for research of cryptography and programming practice purposes. I am not an expert with cryptography and it's possible that the way I utilized java's packages and created the flow of data is insecure. The majority of the code was created by a senior in high school with (at the time) 1 year of programming experience in Java. **DO NOT USE FOR SERIOUS AND LIFE-THREATENING APPLICATIONS.**
+**DISCLAIMER:** This program hasn't been __cryptographically__ tested (cryptanalized). This project was initially created for research of cryptography and programming practice purposes. I am not an expert with cryptography and it's possible that the way I utilized java's packages and created the flow of data is insecure. The majority of the code was created by a senior in high school with (at the time) 1 year of programming experience in Java. **DO NOT USE FOR SERIOUS AND LIFE-THREATENING SITUATIONS.**
 
 - Portable (works on desktop and laptop machines that have Java (the Java Runtime Environment (JRE)) installed).
   - Download Java here: https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
