@@ -4,7 +4,7 @@ A desktop Java application that allows users to encrypt or decrypt their message
 <img src="/img/How To Encrypt-Decrypt.png" style="text-align:center"/>
 
 ## Features:
-**DISCLAIMER:** This hasn't been cryptographically and strenuously tested. This project was initially created for research of cryptography and programming practice purposes. I am not an expert with cryptography and it's possible that the way I utilized java's packages and created the flow of data is insecure. The majority of the code was created by a senior in high school with (at the time) 1 year programming experience in Java. **USE THIS FREEWARE PRODUCT AT YOUR OWN RISK. DO NOT USE FOR SERIOUS AND LIFE-THREATENING APPLICATIONS.**
+**DISCLAIMER:** This program hasn't been __cryptographically__ tested (cryptanalized). This project was initially created for research of cryptography and programming practice purposes. I am not an expert with cryptography and it's possible that the way I utilized java's packages and created the flow of data is insecure. The majority of the code was created by a senior in high school with (at the time) 1 year of programming experience in Java. **DO NOT USE FOR SERIOUS AND LIFE-THREATENING APPLICATIONS.**
 
 - Portable (works on desktop and laptop machines that have Java (the Java Runtime Environment (JRE)) installed).
   - Download Java here: https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
@@ -29,3 +29,4 @@ The act of encryption and decryption relies on the utilization of the Java Crypt
 
 The program was created using the Model-view-controller design pattern, which creates a communication of data from the model (the part that performs encryption on text), the view (what the user sees, found in the FXML file) and the controller (the part that updates the view using information from the model). 
 
+Error handling measures were used to prevent the program from crashing upon invalid user input. Depending on the type of error, the program uses a label widget to inform the user if any bad input was detected. Once bad input is detected, the program changes the text of the label to help the user know which type of input to provide to resolve the error.
