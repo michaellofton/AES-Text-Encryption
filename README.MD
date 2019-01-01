@@ -3,6 +3,18 @@ A desktop Java application that allows users to encrypt or decrypt their message
 
 <img src="/img/How To Encrypt-Decrypt.png" style="text-align:center"/>
 
+## How To Use:
+To encrypt your text:
+  -1. Type or copy the text you want to encrypt into the the top box with the label, "Message to Encrypt/Decrypt"
+  -2. Click the button labeled, "Encrypt" at the bottom left hand of the window
+  -3. The box labeled, "Encrypted Message" is what your encrypted ASCII text looks like. You can copy the encrypted text by clicking on the button labeled "Copy" which is to the right of the "Encrypted Message" box. After copying it, you can now paste your encrypted message in whatever medium you want to send it or store it through (for example, sending it through email, or storing it in a text file).
+  -4. The "Key" is what is needed to decrypt your random-looking ASCII text. Press the button labeled, "Copy" to the right of the box labeled "Key" to copy the key. Once the key has been copied, you can paste the key in the same location as your encrypted text (whether that location is an email, social media direct message, or file storage).
+  
+To Decrypt text that has been encrypted:
+  -1. Upon receiving or retrieving the encrypted message, paste the encrypted message into the box labeled, "Message to Encrypt/Decrypt"
+  -2. Paste the key into the lowest box labeled, "Key"
+  -3. Click the button labeled, "Decrypt." In the box labeled, "Decrypted Message" will be the original message.
+  
 ## Features:
 **DISCLAIMER:** This program hasn't been __cryptographically__ tested (cryptanalized). This project was initially created for research of cryptography and programming practice purposes. I am not an expert with cryptography and it's possible that the way I utilized java's packages and created the flow of data is insecure. The majority of the code was created by a senior in high school with (at the time) 1 year of programming experience in Java. **DO NOT USE FOR SERIOUS AND LIFE-THREATENING SITUATIONS.**
 
@@ -12,14 +24,13 @@ A desktop Java application that allows users to encrypt or decrypt their message
 - Graphical user interface for improved and simplified usability. 
 - Amount of time taken to encrypt and decrypt messages displayed.
 - Automatically generate symmetric secret keys and encrypted messages to send to a party you wish to communicate with privately. 
-  **Note:** Make sure the key is sent through a secure and private channel. The encrypted message can be sent through insecure or
-  secure channels, but if the key is sent through an insecure channel (for example, a publicly accessible online area like an online forum or a YouTube video's comments section), then the message could be compromised. 
+  **Note:** Make sure the key is sent through a secure and private channel. The encrypted message can be sent through insecure or secure channels, but if the key is sent through an insecure channel (for example, a publicly accessible online area like an online forum or a YouTube video's comments section), then the message could be compromised. 
 
 
 ## Uses:      
 Possible applications and usage for this program include:
-- Privatizing and protecting information, such as urls, contents of documents, the text from emails, and anything else that's in an ASCII textual format.
-- Sending secret messages to friends, family, and colleagues
+- Privatizing and protecting information, such as URLs, contents of documents, and anything else that's in an ASCII textual format.
+- Sending secret messages to friends, family, and colleagues through email or social media.
 - Statistically measuring and analyzing the speed of encryption (the encryption/decryption speed is visible for this purpose).
 
 ## Design Features
