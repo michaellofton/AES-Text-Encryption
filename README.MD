@@ -4,19 +4,19 @@ A desktop Java application that allows users to encrypt or decrypt their message
 <img src="/img/How To Encrypt-Decrypt.png" style="text-align:center"/>
 
 ## How To Use:
-To encrypt your message:
+**To encrypt your message:**
   1. Type or copy the text you want to encrypt into the the top box with the label, "Message to Encrypt/Decrypt"
   2. Click the button labeled, "Encrypt" at the bottom left hand of the window
   3. The box labeled, "Encrypted Message" is what your encrypted ASCII text looks like. 
   
-To send or store your encrypted message  
--1. After your message has been encrypted, you can copy the encrypted text by clicking on the button labeled "Copy" which is to the right of the "Encrypted Message" box. After copying it, you can now paste your encrypted message in whatever medium you want to send it or store it through (for example, sending it through email, or storing it in a text file).
--2. The "Key" is what is needed to decrypt your random-looking ASCII text. Press the button labeled, "Copy" to the right of the box labeled "Key" to copy the key. Once the key has been copied, you can paste the key in the same location as your encrypted text (whether that location is an email, social media direct message, or file storage).
+**To send or store your encrypted message:**
+  1. After your message has been encrypted, you can copy the encrypted text by clicking on the button labeled "Copy" which is to the right of the "Encrypted Message" box. After copying it, you can now paste your encrypted message in whatever medium you want to send it or store it through (for example, sending it through email, or storing it in a text file).
+  2. The "Key" is what is needed to decrypt your random-looking ASCII text. Press the button labeled, "Copy" to the right of the box labeled "Key" to copy the key. Once the key has been copied, you can paste the key in the same location as your encrypted text (whether that location is an email, social media direct message, or file storage).
   
-To Decrypt text that has been encrypted:
--1. Upon receiving or retrieving the encrypted message, paste the encrypted message into the box labeled, "Message to Encrypt/Decrypt"
--2. Paste the key into the lowest box labeled, "Key"
--3. Click the button labeled, "Decrypt." In the box labeled, "Decrypted Message" will be the original message.
+**To Decrypt text that has been encrypted:**
+  1. Upon receiving or retrieving the encrypted message, paste the encrypted message into the box labeled, "Message to Encrypt/Decrypt"
+  2. Paste the key into the lowest box labeled, "Key"
+  3. Click the button labeled, "Decrypt." In the box labeled, "Decrypted Message" will be the original message.
   
 ## Features:
 **DISCLAIMER:** This program hasn't been __cryptographically__ tested (cryptanalized). This project was initially created for research of cryptography and programming practice purposes. I am not an expert with cryptography and it's possible that the way I utilized java's packages and created the flow of data is insecure. The majority of the code was created by a senior in high school with (at the time) 1 year of programming experience in Java. **DO NOT USE FOR SERIOUS AND LIFE-THREATENING SITUATIONS.**
