@@ -7,10 +7,10 @@ A desktop Java application that allows users to encrypt or decrypt their message
 **To encrypt your message:**
   1. Type or copy the text you want to encrypt into the the top box with the label, "Message to Encrypt/Decrypt"
   2. Click the button labeled, "Encrypt" at the bottom left hand of the window
-  3. The box labeled, "Encrypted Message" is what your encrypted ASCII text looks like. 
+  3. The box labeled, "Encrypted Message" is what your encrypted ASCII text looks like. Press the "Copy" button to copy it.
   
 **To send or store your encrypted message:**
-  1. After your message has been encrypted, you can copy the encrypted text by clicking on the button labeled "Copy" which is to the right of the "Encrypted Message" box. After copying it, you can now paste your encrypted message in whatever medium you want to send it or store it through (for example, sending it through email, or storing it in a text file).
+  1. After your encrypted message has copied, you can now paste your encrypted message in whatever medium you want to send it or store it through (for example, sending it through email, or storing it in a text file).
   2. The "Key" is what is needed to decrypt your random-looking ASCII text. Press the button labeled, "Copy" to the right of the box labeled "Key" to copy the key. Once the key has been copied, you can paste the key in the same location as your encrypted text (whether that location is an email, social media direct message, or file storage).
   
 **To Decrypt text that has been encrypted:**
