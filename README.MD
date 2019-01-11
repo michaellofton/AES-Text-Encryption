@@ -23,7 +23,7 @@ A desktop Java application that allows users to encrypt or decrypt their message
 
 - Portable (works on desktop and laptop machines that have Java (the Java Runtime Environment (JRE)) installed).
   - Download Java here: https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
-- AES 128-bit encryption for ASCII textual data (does not include any of the extended ASCII symbols, which can be found here: https://www.ascii-code.com/). 
+- AES 128-bit encryption for printable ASCII textual data (character codes 32 through 127, found on https://www.ascii-code.com)
 - Graphical user interface for improved and simplified usability. 
 - Amount of time taken to encrypt and decrypt messages displayed.
 - Automatically generate symmetric secret keys and encrypted messages to send to a party you wish to communicate with privately. 
